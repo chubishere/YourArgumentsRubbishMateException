@@ -1,10 +1,16 @@
 <?php
 
+/**
+ * hi
+ */
 namespace oi
 
 class YourArgumentsRubbishMateException extends \Exception {
-	public function __construct($message = null, $code = 0, Exception $previous = null){
+	// hello
+	// you
+	// there
+	public function __construct($massage = null, $code = 0, Exception $previous = null){
 		$this->message = 'Sort it out';
-		$this->code = 415;
+		$this->code = 85;
 	}
 }
